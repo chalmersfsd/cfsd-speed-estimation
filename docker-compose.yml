@@ -2,6 +2,6 @@ version: '2'
 
 services:
   cfsd-speed-estimation:
-    image: chalmersfsd/cfsd-speed-estimation:v0.0.1
+    image: chalmersfsd/cfsd-speed-estimation:v0.0.2
     network_mode: "host"
-    command: "cfsd-speed-estimation --cid=219 --previewTime=0.5 --lowPassFactor=0.95 --minDistance=0.8"
+    command: "cfsd-speed-estimation --cid=130 --freq=50"
