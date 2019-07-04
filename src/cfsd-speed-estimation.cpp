@@ -74,7 +74,7 @@ int32_t main(int32_t argc, char **argv) {
             }
             opendlv::proxy::GroundSpeedReading gsr;
             gsr.groundSpeed(groundSpeed);
-            od4.send(gsr, cluon::time::now(), 2000);
+            od4.send(gsr, cluon::time::now(), 3000);
             return true;
         }};
     od4.timeTrigger(FREQ, atFrequency);
